@@ -9,7 +9,7 @@ public class TokenBucketAlgorithm {
 
   public synchronized boolean allowRequest(int requestedTokens){
     refill();
-    
+
     if(requestedTokens > currentBucketSize)
       return false;
     else

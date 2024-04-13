@@ -57,7 +57,7 @@ public class ShortestSuperString {
 
 		}
 
-		return max
+		return max;
 
 	}
 

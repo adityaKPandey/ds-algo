@@ -22,7 +22,7 @@ public class ReverseEveryKNodes {
     		}else {
     			int j = 0;
     			while(j < k-1) {
-    				temp = temp.next
+    				temp = temp.next;
     				j++;
     			}
     		}
